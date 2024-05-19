@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.image {
+    background-image: url("../images/image.jpg");
+    height: 537px;
+    width: 358px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px #83a5ad inset;
+    position: relative;
+}
+.background-div {
+    padding: 20px;
+    background-color: #f7c1b7;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.border {
+    border: 15px double #87a1a4;
+    box-shadow: 10px 10px 10px #0000005c;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #d0898e;
+    text-shadow: 2px 2px 3px #6f7d9dad;
+}
+.footer {
+    background-color: #87a1a4;
+    margin-top: 30px;
+    padding: 15px 0px;
+}
+p {
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
